@@ -1,0 +1,11 @@
+.my-input{
+    padding:21px 21px;
+    font-size:14px;
+    color:#312F2F;
+    font-family:FuturaPT-light;
+    letter-spacing: 1px;
+}
+.my-input:focus, .my-input:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,.15) !important;
+    border:1px solid #DADADA;
+}

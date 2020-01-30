@@ -1,0 +1,22 @@
+.top-header {
+  height: auto;
+  min-height: 76px;
+  padding-top: 14px;
+  padding-bottom: 18px; }
+  .top-header .top-header-left {
+    display: inline-block;
+    vertical-align: middle; }
+    .top-header .top-header-left .title {
+      color: #2D2B2B;
+      font-size: 24px;
+      line-height: 32px;
+      position: relative;
+      top: 6px;
+      font-family: FuturaPT-bold;
+      margin: 0px; }
+  .top-header .top-header-right {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right; }
+
+/*# sourceMappingURL=top-header.css.map */

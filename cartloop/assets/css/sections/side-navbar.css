@@ -1,0 +1,98 @@
+.side-navbar {
+  width: 106px;
+  max-width: 100%;
+  height: 100vh;
+  background-color: #262527;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto; }
+  .side-navbar .brand-container {
+    text-align: center;
+    padding: 22px 13px 0px 13px;
+    box-sizing: border-box; }
+    .side-navbar .brand-container .brand {
+      width: 80px;
+      max-width: 100%;
+      margin: 0px auto; }
+  .side-navbar ul {
+    height: auto;
+    margin-top: 74px;
+    margin-bottom: 64px; }
+    .side-navbar ul li {
+      height: auto;
+      padding: 7.5px 0px;
+      margin-bottom: 12px;
+      position: relative; }
+      .side-navbar ul li a {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center; }
+        .side-navbar ul li a .item-container {
+          display: inline-block; }
+          .side-navbar ul li a .item-container .left-bar {
+            display: none; }
+          .side-navbar ul li a .item-container .side-navbar-icon {
+            color: #7F7F7F;
+            margin: 0px auto;
+            position: relative;
+            top: 2px;
+            font-size: 24px; }
+          .side-navbar ul li a .item-container p {
+            font-size: 12px;
+            color: #7F7F7F;
+            position: relative;
+            top: -2px;
+            letter-spacing: 1px; }
+        .side-navbar ul li a .item-container-active .left-bar {
+          width: 4px;
+          height: 60px;
+          background-color: #fff;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          bottom: 0px; }
+        .side-navbar ul li a .item-container-active .side-navbar-icon {
+          color: #fff; }
+        .side-navbar ul li a .item-container-active p {
+          color: #fff; }
+    .side-navbar ul li:hover a .item-container .side-navbar-icon {
+      color: #fff;
+      transition: all 0.2s; }
+    .side-navbar ul li:hover a .item-container p {
+      color: #fff;
+      transition: all 0.2s; }
+    .side-navbar ul li:last-child {
+      margin-bottom: 0px; }
+  .side-navbar .side-navbar-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 24px;
+    text-align: center; }
+    .side-navbar .side-navbar-bottom .avatar {
+      width: 40px;
+      height: 40px;
+      background-color: red;
+      margin: 0px auto;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background: url("../img/avatar.jpg");
+      background-position: center;
+      background-size: cover; }
+    .side-navbar .side-navbar-bottom p {
+      font-size: 12px;
+      color: #7F7F7F;
+      margin-top: 12px; }
+
+@media screen and (max-height: 800px) {
+  .side-navbar ul {
+    margin-bottom: 24px; }
+  .side-navbar .side-navbar-bottom {
+    position: absolute;
+    bottom: 0px;
+    position: relative;
+    margin-bottom: 24px; } }
+
+/*# sourceMappingURL=side-navbar.css.map */
